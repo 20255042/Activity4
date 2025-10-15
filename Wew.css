@@ -2,12 +2,12 @@
     padding: 3px;
 }
 form{
-    margin: 30px;
+    margin: 0px;
     background-color: #ffe4f7;
     
 }
 #first{
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 table{
     margin:5px;
@@ -21,13 +21,13 @@ table{
     font-weight: bold;
 }
 #box{
-    width: 1200px;
+    width: 1280px;
     height: 20px;
     border-radius: 7px;
     border: 1px solid black;
 }
 textarea{
-    width: 1200px;
+    width: 1280px;
     height: 80px;
     border-radius: 7px;
     border: 1px solid black;
@@ -48,3 +48,4 @@ div #submit{
     font-size: 20px; 
     border-radius: 7px;
 }
+
