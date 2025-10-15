@@ -1,0 +1,50 @@
+*{
+    padding: 3px;
+}
+form{
+    margin: 30px;
+    background-color: #ffe4f7;
+    
+}
+#first{
+    margin-bottom: 20px;
+}
+table{
+    margin:5px;
+    background-color: #caffb2;
+}
+#head{
+    font-weight: bold;
+    font-size: 20px;
+}
+#bold{
+    font-weight: bold;
+}
+#box{
+    width: 1200px;
+    height: 20px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+textarea{
+    width: 1200px;
+    height: 80px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+div{
+    margin-top: 30px;
+    float: right;
+  
+}
+div #reset{
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 7px; 
+}
+
+div #submit{
+    background-color: rgb(71, 192, 248);
+    font-size: 20px; 
+    border-radius: 7px;
+}
