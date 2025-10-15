@@ -4,27 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Registration Form</title>
+    <link rel="stylesheet" href="Wew.css">
 </head>
 <body>
     <form>
-        <fieldset>
-            <legend>
+        <fieldset id="first">
+            <legend id="head">
                 Personal Details
             </legend>
             <table>
                 <tr>
-                    <td>
-                        <input style="textbox">
-                    </td>
-                    <tr>
-                    <td>
-                        <input style="textbox">
+                    <td id="bold">
+                        Full name
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <input type="textbox"  placeholder="Juan dela Cruz" id="box">
+                </td>
+                <tr>
+                    <td id="bold">
+                        Email
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="textbox" placeholder="name@example.com" id="box">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="bold">
+                        Password
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" id="box">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="bold">
+                        Age<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="number" id="box">
+                    </td>
                 </tr>
             </table>
         </fieldset>
-    </form>
+        <fieldset>
+            <legend id="head">Preferences</legend>
+            <table>
+                <tr>
+                    <td id="bold" >
+                        Gender
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="gender"> Male<br>
+                        <input type="radio" name="gender"> Female<br>
+                        <input type="radio" name="gender"> Others<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="bold">
+                        Interests
+                    </td>
+                </tr>
+                <tr>
+                    <td> 
+                        <input type="checkbox"> Web Development
+                        <input type="checkbox"> Design
+                        <input type="checkbox"> AI/ML
+                    </td>
+                </tr>
+                <tr>
+                    <td id="bold">
+                        Country
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option disabled selected>Select</option>
+                            <option>India</option>
+                            <option>Indonesia</option>
+                            <option>China</option>
+                            <option>Malaysia</option>
+                            <option>Thailand</option>
+                            <option>Vietnam</option>
+                            <option>Japan</option>
+                            <option>Philippines</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="bold">
+                        Short bio<br>
+                        <textarea placeholder="Tell us a bit about yourself..."></textarea> 
 
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <div>
+                    <input type="reset" id="reset">
+                    <input type="submit" id="submit">
+        </div>
+    </form>
 </body>
 </html>
