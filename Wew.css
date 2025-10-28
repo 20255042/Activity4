@@ -3,6 +3,7 @@
 }
 form{
     margin:0px;
+    width: 1300px;
     background-color: #ffe4f7;
     
 }
@@ -21,13 +22,13 @@ table{
     font-weight: bold;
 }
 #box{
-    width: 1400px;
+    width: 1280px;
     height: 20px;
     border-radius: 7px;
     border: 1px solid black;
 }
 textarea{
-    width: 1400px;
+    width: 1280px;
     height: 80px;
     border-radius: 7px;
     
@@ -48,5 +49,6 @@ div #submit{
     font-size: 20px; 
     border-radius: 7px;
 }
+
 
 
