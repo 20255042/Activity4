@@ -21,13 +21,13 @@ table{
     font-weight: bold;
 }
 #box{
-    width: 1280px;
+    width: 1400px;
     height: 20px;
     border-radius: 7px;
     border: 1px solid black;
 }
 textarea{
-    width: 1280px;
+    width: 1400px;
     height: 80px;
     border-radius: 7px;
     
@@ -48,4 +48,5 @@ div #submit{
     font-size: 20px; 
     border-radius: 7px;
 }
+
 
