@@ -10,7 +10,6 @@ form{
     margin-bottom: 20px;
 }
 table{
-    margin:0px;
     background-color: #caffb2;
 }
 #head{
@@ -48,6 +47,7 @@ div #submit{
     font-size: 20px; 
     border-radius: 7px;
 }
+
 
 
 
