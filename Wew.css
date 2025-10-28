@@ -2,6 +2,7 @@
     padding: 3px;
 }
 form{
+    width: 1280px;
     margin:0px;
     background-color: #ffe4f7;
     
@@ -48,3 +49,4 @@ div #submit{
     font-size: 20px; 
     border-radius: 7px;
 }
+
